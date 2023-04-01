@@ -17,6 +17,13 @@
 - sudo fio --filename=/data/test.bin --direct=1 --rw=read --ioengine=libaio --bs=2m --iodepth=64 --size=10G --numjobs=1 --runtime=60 --time_base=1 --group_reporting --name=test-seq-read
 
 
+## Virtual Machine Testing
+- ubuntu 23.04b
+  - 11:31m
+- ubuntu 23.04b ssd
+  - 
+
+
  
 
 ## Notes

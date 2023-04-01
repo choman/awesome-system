@@ -12,9 +12,9 @@
 - ```sudo zpool create data /dev/nvme0n1 /dev/nvme1n1 /dev/nvme2n1 /dev/nvme3n1``` # (no encryption yet)
 
 ## ZFS Testing
-- sudo hdparm -tT /dev/nvme0n1 (device)
-- sudo sync; sudo dd if=/dev/zero of=tempfile bs=1M count=20k; sudo sync
-- sudo fio --filename=/data/test.bin --direct=1 --rw=read --ioengine=libaio --bs=2m --iodepth=64 --size=10G --numjobs=1 --runtime=60 --time_base=1 --group_reporting --name=test-seq-read
+- ```sudo hdparm -tT /dev/nvme0n1``` (device)
+- `sudo sync; sudo dd if=/dev/zero of=tempfile bs=1M count=20k; sudo sync`
+- ```sudo fio --filename=/data/test.bin --direct=1 --rw=read --ioengine=libaio --bs=2m --iodepth=64 --size=10G --numjobs=1 --runtime=60 --time_base=1 --group_reporting --name=test-seq-read```
 
 
 ## Virtual Machine Testing

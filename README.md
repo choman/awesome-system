@@ -1,10 +1,15 @@
 # awesome-system
 
 
+## Install (lvm encrypt setup)
 
 
-## ZFS Setup
-- sudo zpool create data /dev/nvme0n1 /dev/nvme1n1 /dev/nvme2n1 /dev/nvme3n1
+
+
+
+
+## ZFS Setup (zpool encrypt setup)
+- ```sudo zpool create data /dev/nvme0n1 /dev/nvme1n1 /dev/nvme2n1 /dev/nvme3n1``` # (no encryption yet)
 
 ## ZFS Testing
 - sudo hdparm -tT /dev/nvme0n1 (device)

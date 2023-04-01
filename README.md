@@ -24,8 +24,8 @@ sudo fio --filename=/data/test.bin --direct=1 --rw=read --ioengine=libaio --bs=2
 ## Virtual Machine Testing
 - ubuntu 23.04b
   - 11:31m
-- ubuntu 23.04b ssd
-  - 
+- ubuntu 23.04b (ssd)
+  - 10
 
 
  
